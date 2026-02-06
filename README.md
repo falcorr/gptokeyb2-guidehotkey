@@ -1,4 +1,4 @@
-# GamePad TO KeyBoard 2
+# GamePad TO KeyBoard 2 (with hotkey defaulting to Guide and not Back)
 
 Gamepad to Keyboard/mouse/xbox360(gamepad) emulator
 
