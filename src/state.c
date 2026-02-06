@@ -61,7 +61,7 @@ void state_init()
 {
     memset((void*)&current_state, '\0', sizeof(gptokeyb_state));
 
-    set_hotkey(GBTN_BACK);
+    set_hotkey(GBTN_GUIDE);
 
     current_state.running = true;
 
