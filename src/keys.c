@@ -273,6 +273,8 @@ const button_match button_codes[] = {
     {"back",   GBTN_BACK},
     {"select", GBTN_BACK},
     {"guide",  GBTN_GUIDE},
+    {"menu",  GBTN_GUIDE},
+    {"mode",  GBTN_GUIDE},
 
     {"up",    GBTN_DPAD_UP},
     {"down",  GBTN_DPAD_DOWN},
@@ -294,7 +296,7 @@ const button_match button_codes[] = {
     {"right_analog", GBTN_RIGHT_ANALOG},
 };
 
-button_match button_hotkey = {"hotkey", GBTN_BACK};
+button_match button_hotkey = {"hotkey", GBTN_GUIDE};
 
 void set_hotkey(int gbtn)
 {
